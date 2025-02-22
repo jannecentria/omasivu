@@ -7,7 +7,6 @@ import Contact from './Contact';
 
 function App() {
   useEffect(() => {
-    // Smooth scroll for navigation
     document.querySelectorAll('nav a').forEach(link => {
       link.addEventListener('click', function(event) {
         event.preventDefault();
